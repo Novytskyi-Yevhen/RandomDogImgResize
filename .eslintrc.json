@@ -1,3 +1,8 @@
 {
-    "extends": "airbnb-base-typescript-prettier"
+    "extends": "airbnb-base-typescript-prettier",
+    "rules": {
+        "@typescript-eslint/no-var-requires": 0,
+        "@typescript-eslint/no-non-null-assertion": 0,
+        "no-console": 0
+      }
 }
