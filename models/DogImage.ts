@@ -1,6 +1,6 @@
 import { Schema, model } from "mongoose";
 
-interface IDogImage {
+export interface IDogImage {
   buffer: Buffer;
   mainImg: string;
   width: number;
