@@ -64,8 +64,10 @@ Dillinger is currently dependencies with the following plugins.
 ## How it works
 # /upload/dog/image
 ![](https://i.ibb.co/YX2xvWR/image.png)
+
 For resizes a random dog image according to your width and height parameters you need to send a POST request on /upload/dog/image. And the body has two required parameters: width and height
 
 # /list/dog/images
 ![](https://i.ibb.co/TPYP1s0/image.png)
+
 For get all images from the database you need to send GET requests on /list/dog/images. Request has one non required parameters: option: "width" or "heigth". If you send another or empty variable on option you getting list of images sorted by creation time
