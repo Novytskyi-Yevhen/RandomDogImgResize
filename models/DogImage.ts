@@ -26,4 +26,4 @@ const schema = new Schema<IDogImage>({
   },
 });
 
-module.exports = model<IDogImage>("DogImage", schema);
+export default model<IDogImage>("DogImage", schema);
